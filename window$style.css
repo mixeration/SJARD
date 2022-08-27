@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fafafa;
+}
+
+header h1 {
+    padding: 100px;
+    text-align: center;
+    color: #84cdee;
+}
+
+header h1::first-letter {
+    color: 	#50b8e7;
+}
+
+.server-version {
+    background-color: #b9e2f5;
+    border-radius: 7px;
+    padding: 20px;
+    margin-left: 220px;
+    float: left;
+    display: flex;
+    box-shadow: 3px 3px 20px #648edb;
+}
+
+.server-version label {
+    padding: 5px;
+    position: sticky;
+    display: inline-block;
+}
+
+.server-folder {
+    background-color: #b9e2f5;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 400px;
+    float: left;
+    display: flex;
+    box-shadow: 3px 3px 20px #648edb;
+}
+
+.server-folder label {
+    padding: 5px;
+    position: sticky;
+    display: inline-block;
+}
+
+.server-fork {
+    background-color: #b9e2f5;
+    border-radius: 7px;
+    padding: 20px;
+    margin-left: 100px;
+    float: left;
+    display: flex;
+    box-shadow: 3px 3px 20px #648edb;
+}
+
+.server-fork label {
+    padding: 5px;
+    position: sticky;
+    display: inline-block;
+}
+
+
+.create {
+    background-color: #b9e2f5;
+    border-radius: 7px;
+    padding: 20px;
+    margin-left: 100px;
+    float: left;
+    display: flex;
+    box-shadow: 3px 3px 20px #648edb;
+}
+
+.create button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: #fafafa;
+    transition: background-color .3s;
+}
+
+.create button:hover {
+    background-color: #84cdee;
+    transition: background-color .3s;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mixeration",
+  "productName": "ServerJarDownloader",
+  "description": "MinecraftServer Jar Downloader",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "mixeration",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . app --platform win32 --arch x64 --out dist/",
+    "setup": "electron-installer-windows --src dist/app-win32-x64/ --dest dist/installers/"
+  },
+  "devDependencies": {
+    "electron-installer-windows": "^3.0.0",
+    "electron-packager": "*",
+    "electron-prebuilt": "*"
+  },
+  "dependencies": {
+    "electron": "^20.1.0"
+  }
+}
