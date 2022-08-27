@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.downloader {
+    float: right;
+    right: 10%;
+    display: inline-block;
+    position: sticky;
+    width: 35%;
+    top: 0;
+    transform: translate(0%, 35%);
+    height: 300px;
+    box-shadow: 3px 0px 30px black;
+    background-color: black;
+}
+
+.downloader h1 {
+    color: black;
+    text-align: center;
+    font-family: Raleway;
+    transform: translate(0%, -130%);
+}
+
+.downloader p {
+    color: white;
+    transform: translate(0%, -100%);
+    text-align: center;
+    font-family: Raleway;
+}
+
+.downloader label {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    transform: translate(40%, -20%);
+    text-align: center;
+    font-family: Raleway;
+}
+
+.downloader select {
+    color: black;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    transform: translate(-60%, 100%);
+    text-align: center;
+    font-family: Raleway;
+}
+
+.system {
+    float: right;
+    right: 50%;
+    display: inline-block;
+    position: sticky;
+    width: 30%;
+    top: 0;
+    transition: width .3s;
+    transform: translate(0%, 65%);
+    height: 300px;
+    box-shadow: 3px 0px 30px black;
+    background-color: black;
+}
+
+.system h1 {
+    color: black;
+    text-align: center;
+    font-family: Raleway;
+    transform: translate(0%, -160%);
+}
+
+.systemSizer {
+    transition: width .3s;
+    width: 20%;
+}
+
+.download {
+    background-color: #fff;
+    color: white;
+    width: 80%;
+    border-radius: 100px;
+    font-family: Raleway;
+    transform: translate(13%, 70%);
+}
+
+
+.download label {
+    color: black;
+    display: inline-block;
+    padding: 15px 10px 15px 10px;
+    cursor: pointer;
+    transform: translate(30%, 0%);
+    text-align: center;
+    font-family: Raleway;
+}

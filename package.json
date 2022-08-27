@@ -17,6 +17,7 @@
     "electron-prebuilt": "*"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.9.1",
     "electron": "^20.1.0"
   }
 }

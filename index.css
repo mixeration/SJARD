@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(255,255,255,0);
+    overflow-y: hidden;
+}
+
+.panel {
+    float: left;
+    display: inline-block;
+    position: sticky;
+    transform: translate(-110%, 0%);
+    transition: transform .3s;
+    width: 20%;
+    height: 730px;
+    box-shadow: 3px 0px 30px black;
+    background-color: black;
+}
+
+.panel iframe {
+    transform: translate(3%, 30%);
+}
+
+.panel h5 {
+    color: white;
+    text-align: center;
+    transform: translate(0%, 100%);
+    font-family: "Raleway";
+}
+
+.panel p {
+    font-family: "Raleway";
+    text-align: center;
+    transform: translate(0%, 100%);
+    margin-top: 20px;
+    color: white;
+}
+
+.changePanel {
+    transform: translate(0%, 0%);
+    transition: transform .3s;
+}
+
+.open-panel {
+    float: right;
+    position: sticky;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 0px 0px 20px;
+    transform: translate(0%, 0%);
+}
+
+.open-panel button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: translate(100%, 15%);
+}
+
+.management {
+    float: right;
+    right: 5%;
+    transform: translate(0%, 180%);
+    position: absolute;
+    box-shadow: 1px 3px 10px black;
+    transition: width .3s;
+    display: inline-block;
+    background-color: #000;
+    width: 1400px;
+    height: 250px;
+}
+
+.management h1 {
+    color: black;
+    text-align: center;
+    font-family: Raleway;
+    transform: translate(-36%, -130%);
+}
+
+.management p {
+    color: white;
+    transform: translate(-40%, -900%);
+    text-align: center;
+    font-family: Raleway;
+}
+
+.management h5 {
+    color: white;
+    transform: translate(40%, -250%);
+    font-family: Raleway;
+    position: sticky;
+    width: 50%;
+}
+
+.management label {
+    color: black;
+    display: block;
+    background-color: white;
+    width: 30%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 10px 1px 25px black;
+    padding: 20px;
+    transform: translate(235%, -25%);
+    font-family: Raleway;
+}
+
+.management select {
+    color: black;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    transform: translate(98%, -600%);
+    text-align: center;
+    font-family: Raleway;
+}
+
+.changeSize {
+    transition: width .3s;
+    width: 1100px;
+    height: 300px;
+    transform: translate(0%, 140.2%);
+}
