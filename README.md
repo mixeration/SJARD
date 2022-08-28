@@ -33,6 +33,12 @@ A: Yes, you can participate on the condition that you know certain program langu
 
 ```
 
+## Images
+
+![image](https://user-images.githubusercontent.com/64479768/187088554-991d39c7-3904-4ef4-95f8-256c17434a9c.png)
+![image](https://user-images.githubusercontent.com/64479768/187088564-721b2ac6-be6f-4631-bd55-339701ed2819.png)
+![image](https://user-images.githubusercontent.com/64479768/187088576-08e5c7b9-934f-4200-90f8-7a3314080f46.png)
+
 
 ## Installation
 Install SJARD with git
