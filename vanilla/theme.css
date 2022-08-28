@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.center-panel img {
+    width: 64px;
+    position: absolute;
+    transform: translate(1330%, -50%);
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #F4DFBA;
+}
+
+.control-panel {
+    width: 5%;
+    height: 770px;
+    float: right;
+    right: 0%;
+    background-color: #CA965C;
+    color: white;
+    position: sticky;
+    display: block;
+}
+
+.control-panel img {
+    border-radius: 200px;
+    width: 48px;
+    height: 48px;
+}
+
+.control-panel label {
+    display: inline-flex;
+    transition: transform .3s;
+    transform: scale(0.9);
+    margin: 14px;
+}
+
+.control-panel label:hover {
+    transition: transform .3s;
+    transform: scale(1);
+}
+
+.left-panel {
+    display: inline-block;
+    position: sticky;
+    transform: translate(-110%, 0%);
+    transition: transform .3s;
+    width: 15%;
+    height: 770px;
+    box-shadow: 3px 0px 30px #CA965C;
+    background-color: #CA965C;
+}
+
+.left-panel h1 {
+    font-family: Raleway, sans-serif;
+    color: white;
+    transition: color .3s;
+    text-align: center;
+    transform: translate(0%, 100%);
+}
+
+.left-panel label {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    transition: font-size, transform .3s;
+    font-size: 18px;
+    transform: translate(10%, 480%);
+}
+
+.left-panel img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    transform: translate(-110%, -20%);
+}
+
+.left-panel label:first-letter {
+    transition: font-size .3s;
+    font-size: 30px;
+}
+
+.left-panel a {
+    transition: font-size .3s;
+    text-decoration: none;
+    color: white;
+}
+
+.left-panel a:hover {
+    font-size: 25px;
+    transition: font-size .3s;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    transform: translate(0%, 10000%);
+    margin-top: 50px;
+    background-color: white;
+}
+
+.center-panel {
+    display: inline-block;
+    position: sticky;
+    float: right;
+    right: 25%;
+    transform: translate(10%, 12%);
+    transition: transform .3s;
+    width: 70%;
+    height: 600px;
+    box-shadow: 3px 0px 30px #CA965C;
+    background-color: #CA965C;
+}
+
+.center-panel p {
+    transform: translate(7%, 202%);
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+
+.center-panel h1 {
+    transform: translate(5%, 70%);
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+
+.center-panel label {
+    font-family: Raleway, sans-serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    transform: translate(70%, 500%);
+}
+
+.center-panel h4 {
+    font-family: Raleway, sans-serif;
+    color: #876445;
+    border-radius: 5px 0px 5px 0px;
+    background-color: #F4DFBA;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    transform: translate(20%, 400%);
+}
+
+.center-panel iframe {
+    position: absolute;
+    transform: translate(20%, 60%);
+}
+
+.center-panel .right {
+    background-color: #F4DFBA;
+    transform: translate(89%, -10%);
+    width: 500px;
+    box-shadow: 3px 15px 30px #CA965C;
+    height: 430px;
+}
+
+.center-panel .right h1 {
+    margin-top: 40px;
+    transform: translate(5%, 70%);
+    color: #876445;
+}
+
+.center-panel .right p {
+    transform: translate(10%, 30%);
+    width: 75%;
+    color: #876445;
+}
+
+.center-panel select {
+    background-color: #F4DFBA;
+    padding: 5px 0px 5px 5px;
+    border-radius: 0px 20px 0px 0px;
+    transform: translate(330%, 300%);
+    font-family: Raleway, sans-serif;
+    color: black;
+}
+
+
+.cp_slide {
+    transform: translate(10%, 502%);
+    transition: transform .3s;
+}
+
+.slide {
+    transition: transform .3s;
+    transform: translate(0%, 0%);
+}

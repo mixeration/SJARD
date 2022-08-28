@@ -6,7 +6,7 @@ function createWindow () {
   // Create the browser window.
 
   const mainWindow = new BrowserWindow({
-    width: 1980,
+    width: 1280,
     height: 720,
     maximizable: false,
     resizable: false,
@@ -17,7 +17,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.setMenuBarVisibility(null)
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('main/index.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
